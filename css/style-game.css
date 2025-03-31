@@ -1,3 +1,13 @@
+.title {
+  color: #ffffff;
+  font-size: 80px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
 body {
     background-color: #0a0a23;
   }
@@ -12,9 +22,11 @@ body {
     max-width: 500px;
     max-height: 400px;
     background-color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
+    
   }
   
   #controls,
@@ -42,4 +54,12 @@ body {
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
+    border-radius: 50% 20% / 10% 40%;
+  }
+
+  #town {
+    height: 100%;
+    width: 100%;
+    border-radius: 50% 20% / 15% 40%;
+    padding-top: 40px;
   }
