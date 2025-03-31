@@ -3,6 +3,7 @@ color: #262a76;
 font-family: futura;
 font-weight: bold;
 font-size: 24px;
+padding-left: 24px;
 }
   
 .description {
@@ -17,6 +18,7 @@ font-size: 16px;
 font-family: futura;
 font-weight: bold;
 font-size: 16px;
+padding-left: 40px;
 }
 
 .title {
@@ -24,7 +26,9 @@ color: #C83D95;
 font-family: futura;
 font-style: bold;
 font-size: 43px;
+padding-left: 34px;
 }
+
 /*green color: #00A86B*/
 
 ._assignment {
@@ -32,6 +36,7 @@ color: #3257A8;
 font-family: futura;
 font-weight: bold;
 font-size: 30px;
+padding-bottom: 36px;
 }
 
 .assignment_ {
@@ -39,4 +44,17 @@ color: #3257A8;
 font-family: futura;
 font-weight: bold;
 font-size: 30px;
+padding-bottom: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 34px;
+  padding-bottom: 48px;
 }
