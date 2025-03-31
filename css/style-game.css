@@ -1,8 +1,9 @@
 .title {
   color: #ffffff;
-  font-size: 80px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: bolder;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: cursive;
+  font-weight: 100px;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -10,6 +11,7 @@
 
 body {
     background-color: #0a0a23;
+    background-image: 
   }
   
   #text {
@@ -21,12 +23,12 @@ body {
   #game {
     max-width: 500px;
     max-height: 400px;
-    background-color: #ffffff;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#ffffff;
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
-    
+    border-radius:
   }
   
   #controls,
@@ -54,7 +56,7 @@ body {
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 15px;
   }
 
   #town {
@@ -62,4 +64,17 @@ body {
     width: 75%;
     border-radius: 50% 20% / 15% 40%;
     padding-top: 40px;
+    display: flex;
+    justify-content: center;
   }
+
+  #scroll {
+    height: 100%;
+    width: 78%;
+  }
+
+  /*#scroll {
+    height: 200px;
+    width: 575px;
+    border-radius: 1% 14% / 22% 6%
+  }*/
