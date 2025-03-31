@@ -42,19 +42,19 @@ const monsters = [
 const locations = [
   {
     name: "town square",
-    "button text": ["Go to store", "Go to cave", "Fight dragon"],
+    "button text": ["Go to Store", "Go to Cave", "Fight Dragon"],
     "button functions": [goStore, goCave, fightDragon],
     text: "You are in the town square. You see a sign that says \"Store\"."
   },
   {
     name: "store",
-    "button text": ["Buy 10 health (10 gold)", "Buy weapon (30 gold)", "Go to town square"],
+    "button text": ["Buy 10 Health (10 gold)", "Buy Weapon (30 gold)", "Go to Town Square"],
     "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store."
   },
   {
     name: "cave",
-    "button text": ["Fight slime", "Fight fanged beast", "Go to town square"],
+    "button text": ["Fight Slime", "Fight Fanged Beast", "Go to Town Square"],
     "button functions": [fightSlime, fightBeast, goTown],
     text: "You enter the cave. You see some monsters."
   },
@@ -66,25 +66,25 @@ const locations = [
   },
   {
     name: "kill monster",
-    "button text": ["Go to town square", "Go to town square", "Go to town square"],
+    "button text": ["Go to Town Square", "Go to Town Square", "Go to Town Square"],
     "button functions": [goTown, goTown, easterEgg],
     text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
   },
   {
     name: "lose",
-    "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
+    "button text": ["Replay?", "Replay?", "Replay?"],
     "button functions": [restart, restart, restart],
     text: "You die. &#x2620;"
   },
   { 
     name: "win", 
-    "button text": ["REPLAY?", "REPLAY?", "REPLAY?"], 
+    "button text": ["Replay?", "Replay?", "Replay?"], 
     "button functions": [restart, restart, restart], 
     text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;" 
   },
   {
     name: "easter egg",
-    "button text": ["2", "8", "Go to town square?"],
+    "button text": ["2", "8", "Go to Town Square?"],
     "button functions": [pickTwo, pickEight, goTown],
     text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!"
   }
@@ -144,7 +144,7 @@ function buyWeapon() {
     }
   } else {
     text.innerText = "You already have the most powerful weapon!";
-    button2.innerText = "Sell weapon for 15 gold";
+    button2.innerText = "Sell Weapon for 15 Gold";
     button2.onclick = sellWeapon;
   }
 }
