@@ -26,6 +26,7 @@ body {
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
+    border-radius: 10px;
   }
   
   #controls,
@@ -61,10 +62,9 @@ body {
   #town {
     height: 50%;
     width: 50%;
-    border-radius: 50% 20% / 15% 40%;
+    border-radius: 40% 20% / 15% 40%;
     padding-top: 40px;
     padding-left: 300px;
-    position: fixed;
   }
 
   #scroll {
