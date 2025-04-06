@@ -2,7 +2,7 @@
 color: #262a76;
 font-family: futura;
 font-weight: bold;
-font-size: 34px;
+font-size: 30px;
 padding-left: 24px;
 }
   
@@ -10,7 +10,7 @@ padding-left: 24px;
 color: #000000;
 font-family: futura;
 font-style: italic;
-font-size: 20px;
+font-size: 18px;
 }
 
 /*.vsc {
@@ -30,9 +30,10 @@ padding-left: 64px;
 }
 
 /*green color: #00A86B*/
+/*og assignment color: #3257A8*/
 
 ._assignment {
-color: #3257A8;
+color: #3862BC;
 font-family: futura;
 font-weight: bold;
 font-size: 40px;
@@ -40,7 +41,7 @@ padding-bottom: 36px;
 }
 
 .assignment_ {
-color: #3257A8;
+color: #3862BC;
 font-family: futura;
 font-weight: bold;
 font-size: 40px;
