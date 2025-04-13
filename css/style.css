@@ -40,13 +40,25 @@ font-size: 40px;
 padding-bottom: 36px;
 }
 
-.assignment_ {
-color: #3862BC;
-font-family: futura;
-font-weight: bold;
-font-size: 40px;
-padding-bottom: 36px;
+/*padding not applying for ^assignment? why*/
+
+._assignment-description {
+  display:inline-block;
+  color: #262a76;
+  font-weight: normal;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+
 }
+
+/*._assignment-line {
+  display:inline-block;
+  color: #262a76;
+  font-weight: normal;
+  font-size: 26px;
+  padding-left: 10px;
+}*/
 
 a {
   text-decoration: none;
