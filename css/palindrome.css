@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://us.123rf.com/450wm/studio306/studio3061606/studio306160600665/58847228-close-up-of-notebook-lined-paper-textures-background.jpg);
+    background-position: center;
+    background-repeat: repeat-y repeat-x;
+    text-align: center;
+}
+
+h1 {
+margin-top: 75px;
+font-family: permanent marker;
+font-size: 90px;
+color: #3f467f;
+}
+
+.box-1 {
+    position: relative; 
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 36px;
+}
+
+.box-2 {
+position: relative;
+padding-top: 15px;
+border-radius: 12px; 
+font-family: "Walter Turncoat", cursive;
+font-size: 24px;
+font-weight: 600;
+
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 9.25px;
+    width: 250px;
+}
+
+button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 7.5px;
+    width: 100px;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    background-color: gray;
+}
+
+#result {
+    padding-top: 30px;
+    color: red;
+    font-size: 32px;
+    font-weight:bolder;
+}
